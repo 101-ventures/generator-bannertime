@@ -1,0 +1,10 @@
+@import 'base/banner';
+@import 'base/preloader';
+
+.banner {
+    background: #c1eeff;
+    background: -moz-linear-gradient(top, #c1eeff 0%, #ffffff 64%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #c1eeff 0%,#ffffff 64%,#ffffff 100%);
+    background: linear-gradient(to bottom, #c1eeff 0%,#ffffff 64%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1eeff', endColorstr='#ffffff',GradientType=0 );
+}

@@ -1,10 +1,10 @@
 {
-  "name": "p4",
+  "name": "supercharge",
   "version": "0.0.1",
-  "description": "Testcase",
+  "description": "blavblabvlva",
   "repository": {
     "type": "git",
-    "url": "https://github.com/101-ventures/generator-bannertime.git"
+    "url": "https://github.com/pyramidium/generator-bannertime"
   },
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js",

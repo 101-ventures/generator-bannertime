@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <title>Preview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="base/styles/style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="base/images/logo.png" class="logo">
+      <div class="menu"></div>
+      <ul>
+        <li><a href="p4-300x250/" class="done">p4-300x250</a></li>
+        <li><a href="kitchen/" class="done">kitchen</a></li>
+      </ul>
+    </div>
+    <div class="iframe">
+      <iframe src="p4-300x250/"></iframe>
+      <div class="loading"></div>
+      <div class="scrubber-container">
+        <div class="scrubber-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="scrubber">
+          <div class="play-control"></div>
+          <div class="progress">
+            <div class="seek-bar">
+              <div class="play-bar">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="time">
+            <div class="current-time">00:00</div>
+            <div class="time-seperator"> / </div>
+            <div class="duration">00:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/utils/Draggable.min.js"></script>
+    <script type="text/javascript" src="base/js/main.js"></script>
+  </body>
+</html>

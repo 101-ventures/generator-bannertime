@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "title": "supercharge-600x160",
+  "description": "",
+  "width": "600",
+  "height": "160",
+  "events": {
+    "enabled": 1,
+    "list": {
+      "1": "myEventName1",
+      "2": "myEventName2",
+      "3": "myEventName3"
+    }
+  },
+  "clicktags": {
+    "clickTAG": "https://packer-goat-48348.netlify.com/"
+  },
+  "source": "index.html"
+}
